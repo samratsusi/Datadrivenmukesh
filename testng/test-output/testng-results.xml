@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12078" started-at="2016-12-16T20:48:10Z" finished-at="2016-12-16T20:48:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12078" started-at="2016-12-16T20:48:10Z" finished-at="2016-12-16T20:48:22Z">
+      <class name="demo.Ie">
+        <test-method status="PASS" signature="start()[pri:0, instance:demo.Ie@482f8f11]" name="start" is-config="true" duration-ms="11886" started-at="2016-12-16T14:48:10Z" finished-at="2016-12-16T14:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="verifytitle()[pri:0, instance:demo.Ie@482f8f11]" name="verifytitle" duration-ms="155" started-at="2016-12-16T14:48:22Z" finished-at="2016-12-16T14:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+      </class> <!-- demo.Ie -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

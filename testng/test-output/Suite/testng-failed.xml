@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Internet Explorer"/>
+  <test name="Internetexplorer Test(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <classes>
+      <class name="demo.crossbrowser">
+        <methods>
+          <include name="verifytitle"/>
+          <include name="crossbrowser"/>
+          <include name="crossbrowser"/>
+          <include name="crossbrowser"/>
+          <include name="close"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- demo.crossbrowser -->
+    </classes>
+  </test> <!-- Internetexplorer Test(failed) -->
+  <test name=" Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="demo.crossbrowser">
+        <methods>
+          <include name="verifytitle"/>
+          <include name="crossbrowser"/>
+          <include name="crossbrowser"/>
+          <include name="crossbrowser"/>
+          <include name="close"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- demo.crossbrowser -->
+    </classes>
+  </test> <!--  Chrome Test(failed) -->
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="demo.crossbrowser">
+        <methods>
+          <include name="verifytitle"/>
+          <include name="crossbrowser"/>
+          <include name="crossbrowser"/>
+          <include name="crossbrowser"/>
+          <include name="close"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- demo.crossbrowser -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
