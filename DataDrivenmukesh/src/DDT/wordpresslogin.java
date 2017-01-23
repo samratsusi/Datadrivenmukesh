@@ -26,6 +26,7 @@ public class wordpresslogin {
 	
 	@Test
 	public void testapp() throws IOException{
+		//this is an data with 2 dimensional array
 		  String[][] data = ReadExcel.getData("TestData.xlsx", "Sheet1");
 	for(int i = 1; i < data.length; i ++){
 			String Username = data[i][0];
