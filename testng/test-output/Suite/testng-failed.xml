@@ -8,10 +8,11 @@
       <class name="demo.crossbrowser">
         <methods>
           <include name="verifytitle"/>
-          <include name="crossbrowser"/>
-          <include name="crossbrowser"/>
-          <include name="crossbrowser"/>
+          <include name="crossbrowser1"/>
           <include name="close"/>
+          <include name="crossbrowser1"/>
+          <include name="close"/>
+          <include name="crossbrowser1"/>
           <include name="close"/>
         </methods>
       </class> <!-- demo.crossbrowser -->
@@ -23,10 +24,11 @@
       <class name="demo.crossbrowser">
         <methods>
           <include name="verifytitle"/>
-          <include name="crossbrowser"/>
-          <include name="crossbrowser"/>
-          <include name="crossbrowser"/>
+          <include name="crossbrowser1"/>
           <include name="close"/>
+          <include name="crossbrowser1"/>
+          <include name="close"/>
+          <include name="crossbrowser1"/>
           <include name="close"/>
         </methods>
       </class> <!-- demo.crossbrowser -->
@@ -38,10 +40,11 @@
       <class name="demo.crossbrowser">
         <methods>
           <include name="verifytitle"/>
-          <include name="crossbrowser"/>
-          <include name="crossbrowser"/>
-          <include name="crossbrowser"/>
+          <include name="crossbrowser1"/>
           <include name="close"/>
+          <include name="crossbrowser1"/>
+          <include name="close"/>
+          <include name="crossbrowser1"/>
           <include name="close"/>
         </methods>
       </class> <!-- demo.crossbrowser -->

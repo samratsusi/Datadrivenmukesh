@@ -17,7 +17,7 @@ public class crossbrowser {
 	    WebDriver driver;
 	@BeforeTest
 	@Parameters("browser")
-	public void crossbrowser (String browser){
+	public void crossbrowser1 (String browser){
 		if(browser.equals("FireFox")){
 			driver = new FirefoxDriver(); 
 		}
@@ -32,6 +32,7 @@ public class crossbrowser {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://facebook.com");
+		
 	}
 
 	@Test

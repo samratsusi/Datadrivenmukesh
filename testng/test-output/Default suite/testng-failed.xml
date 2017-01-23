@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="demo.Ie">
+      <class name="demo.first">
         <methods>
-          <include name="verifytitle"/>
           <include name="start"/>
+          <include name="Test1"/>
+          <include name="second"/>
+          <include name="thrid"/>
         </methods>
-      </class> <!-- demo.Ie -->
+      </class> <!-- demo.first -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
